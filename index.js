@@ -1,4 +1,4 @@
 module.exports = {
-  validator: require('./validator'),
-  transformer: require('./transformer')
+  validate: require('./validator'),
+  transform: require('./transformer')
 }
