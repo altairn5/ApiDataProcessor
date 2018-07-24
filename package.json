@@ -1,6 +1,6 @@
 {
   "name": "api-processor",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Easy and efficient way to transform, orchestrate and validate your complex Data model",
   "main": "index.js",
   "scripts": {
