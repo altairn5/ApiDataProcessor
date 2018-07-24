@@ -10,10 +10,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/skhan75/ApiTransformer"
+    "url": "https://github.com/skhan75/ApiDataProcessor"
   },
   "bugs": {
-    "url": "https://github.com/skhan75/ApiTransformer/issues",
+    "url": "https://github.com/skhan75/ApiDataProcessor",
     "email": "sami.ahmadkhan12@gmail.com"
   },
   "jest": {
