@@ -29,6 +29,43 @@ transform<br/></b>
 Validates a data payload against a list of allowed and not allowed values.<br/>
 Consumes a payload to be validated with schemas for allowed values and not allowed values passed as arguments
 
+#### Parameters
+`payload`: payload to be validated against<br/>
+`allowed`: list of allowed values (Optional) <br/>
+`notAllowed`: list of not allowed values (Optional).<br/>
+
+Atleast 1 is required between `allowed` and `notAllowed`
+
+`customFunctions`: object of custom validation functions<br/>
+
+<b>Syntax</b><br/>
+```
+customFunctions: {
+  <funcName>: {
+    func: function(payload) {
+      return <some Boolean conditional check>
+    },
+    error: <Your custom error object>(Optional)
+  }
+}
+```
+<b>Usage</b><br/>
+```javascript
+const customValidationFunctions = {
+  isLegal: {
+    func: function(payload) {
+      return (payload.status === 'Active' && payload.visa === 'Active')
+    },
+    error: { code: 'ER-07', detail: 'Status Not Legal in country.' }
+  }
+}
+```
+  * `customFunctions` is an Object of Objects defined with the following fields:<br/>
+    * `func`: contains the function with conditional check. Should always be a `Boolean`
+    * `error`: This is optional field and you can pass your custom error here.<br/>
+
+`collectErrors`: (Optional, Default: true) True or false based on if you want to collect errors or throw the very first error encountered.
+
 #### Syntax
 ```javascript
 apiProcessor.validate({
