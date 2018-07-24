@@ -1,0 +1,28 @@
+#idea files
+.idea
+
+#Mocha Output
+.nyc_output
+
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+# npm
+node_modules
+*.log
+*.gz
+
+# jest test coverage
+coverage
+jsdocs

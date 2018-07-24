@@ -1,0 +1,25 @@
+{
+  "name": "api-processor",
+  "version": "1.0.0",
+  "description": "\"Functionalities for validation and orchestration of various kind of payloads\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "author": "Sami Ahmad Khan",
+  "license": "MIT",
+  "jest": {
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "verbose": true
+  },
+  "devDependencies": {
+    "jest": "^23.4.1"
+  },
+  "files": [
+    "LICENSE",
+    "index.js",
+    "readme.md",
+    "lib"
+  ]
+}
