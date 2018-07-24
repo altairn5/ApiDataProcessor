@@ -1,5 +1,5 @@
 module.exports = {
-  validate: require('./validator'),
-  // transform: require('./transformer'),
-  // orchestrate: require('./orchestrator')
+  validate: require('./lib/validator'),
+  // transform: require('./lib/transformer'),
+  // orchestrate: require('./lib/orchestrator')
 }
