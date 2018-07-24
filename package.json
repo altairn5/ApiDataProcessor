@@ -29,5 +29,21 @@
     "index.js",
     "readme.md",
     "lib"
+  ],
+  "keywords": [
+    "data-model",
+    "data",
+    "validation",
+    "modification",
+    "orchestration",
+    "transformation",
+    "transform",
+    "orchestrate",
+    "modify",
+    "edit",
+    "validate",
+    "data model",
+    "api",
+    "api tranformation"
   ]
 }
