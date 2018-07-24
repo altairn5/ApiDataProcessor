@@ -1,7 +1,7 @@
 {
   "name": "api-processor",
   "version": "1.0.0",
-  "description": "\"Functionalities for validation and orchestration of various kind of payloads\"",
+  "description": "Easy and efficient way to transform, orchestrate and validate your complex Data model",
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose --coverage"

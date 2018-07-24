@@ -1,3 +1,6 @@
+# API Transformer
+Easy and efficient way to transform, orchestrate and validate your complex Data model.<br/>
+
 This Library provides toolset for easy orchestration, transformation and validation of data fields and values in a most simplistic and elegant way.
 Reduces code complexity and ugliness via a simple very specific interface.
 
@@ -14,6 +17,11 @@ In Node.js:
 ```javascript
 const apiProcessor = require('api-processor')
 ```
+
+## Functionalities
+<b>validate <br/>
+orchestrate<br/>
+transform<br/></b>
 
 ## Usage
 
