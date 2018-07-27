@@ -38,10 +38,10 @@ describe('# Testing Transformer\'s \"validate\" functionality', () => {
         'courseName': 'Political Science',
         'affiliation': true
       },
-      deleteExcept: ['student', 'schoolName', 'affiliation']
+      deleteExcept: ['degreeType']
     });
 
-    console.warn(JSON.stringify(dummyPayload,undefined,2));
+    // console.warn(JSON.stringify(dummyPayload,undefined,2));
 
 
   });
